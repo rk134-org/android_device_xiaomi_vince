@@ -115,12 +115,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service
-
-PRODUCT_PACKAGES += \
-    libstdc++.vendor \
     camera.msm8953 \
     libmm-qcamera \
-    libdng_sdk.vendor
+    libdng_sdk.vendor \
+    libstdc++.vendor
 
 # Consumer IR
 PRODUCT_PACKAGES += \

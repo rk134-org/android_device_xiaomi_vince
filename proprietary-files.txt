@@ -111,19 +111,27 @@ vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
+vendor/lib/libmibokeh_625.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
+vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboptizoom.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libseemore.so
-vendor/lib/libtrueportrait.so
+lib/libskia.so:vendor/lib/libskia.so
+lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
 -vendor/lib/libts_detected_face_hal.so
 -vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libubifocus.so
+vendor/lib/libvidhance.so
+vendor/lib/libvidhance_gyro.so
+
+# Camera watermark - from jasmine V11.0.8.0.QDIMIXM
+vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
+vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 
 # Camera-actuators
 vendor/lib/libactuator_vince_dw9714v_ofilm.so
@@ -359,6 +367,17 @@ vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_imx214.so
+vendor/lib/libmmcamera_imx230.so
+vendor/lib/libmmcamera_imx258.so
+vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so
+vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so
+vendor/lib/libmmcamera_imx258_mono.so
+vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so
+vendor/lib/libmmcamera_imx298.so
+vendor/lib/libmmcamera_imx318.so
+vendor/lib/libmmcamera_imx362.so
+vendor/lib/libmmcamera_imx378.so
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
 vendor/lib/libmmcamera_isp_be_stats44.so
